@@ -815,4 +815,4 @@ def evaluate(model, dataloader, device):
 两者结构几乎一样，差异在：
 1. BERT 用可学习 Position Embedding，ACT 通常用 sin/cos 或 RoPE
 2. BERT 是 Post-LN（残差后归一），很多新模型改成了 Pre-LN（归一后注意力）
-3. 输入语义不同——ACT 输入的是图像特征+本体感觉，BERT 是离散 token id 1
+3. 输入语义不同——ACT 输入的是图像特征+本体感觉，BERT 是离散 token id 
