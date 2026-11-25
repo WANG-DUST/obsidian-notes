@@ -1,0 +1,7 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Primary",
+  "baseFontSizeAction": true,
+  "baseFontSize": 15,
+  "showRibbon": true
+}

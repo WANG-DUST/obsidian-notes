@@ -1,0 +1,421 @@
+{
+  "uiLanguage": "auto",
+  "primarySource": "有道",
+  "dictSource": "百度",
+  "translationSourceOrder": [
+    "有道",
+    "火山",
+    "腾讯",
+    "谷歌",
+    "Bing",
+    "CNKI"
+  ],
+  "translationSourceEnabled": [
+    "有道",
+    "火山",
+    "腾讯",
+    "谷歌",
+    "Bing",
+    "CNKI"
+  ],
+  "dictionarySourceOrder": [
+    "百度",
+    "有道词典",
+    "牛津"
+  ],
+  "dictionarySourceEnabled": [
+    "百度",
+    "有道词典",
+    "牛津"
+  ],
+  "sourceLanguage": "auto",
+  "targetLanguage": "zh-Hans",
+  "bingApiKey": "",
+  "bingRegion": "",
+  "bingEndpoint": "https://api.cognitive.microsofttranslator.com",
+  "cnkiToken": "",
+  "cnkiAuthorization": "",
+  "autoTranslate": false,
+  "autoTranslateDelay": 2,
+  "popupMaxSize": "adaptive",
+  "popupCustomMaxWidth": 760,
+  "popupCustomMaxHeight": 720,
+  "rememberPopupSize": false,
+  "popupLastSize": null,
+  "popupSourceFontSize": 0,
+  "popupTargetFontSize": 0,
+  "popupFontFollowResize": false,
+  "popupLastFontScale": 1,
+  "fullHtml": false,
+  "history": [
+    {
+      "ts": 1794668834846,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "This paper introduces Diffusion Policy, a new way of generating robot behavior by representing a robot’s visuomotor policy as a conditional denoising diffusion process. We benchmark Diffusion Policy across 15 different tasks from 4 different robot manipulation benchmarks and find that it consistently outperforms existing state-of-the-art robot learning methods with an average improvement of 46.9%. Diffusion Policy learns the gradient of the action-distribution score function and iteratively optimizes with respect to this gradient field during inference via a series of stochastic Langevin dynamics steps. We find that the diffusion formulation yields powerful advantages when used for robot policies, including gracefully handling multimodal action distributions, being suitable for high-dimensional action spaces, and exhibiting impressive training stability. To fully unlock the potential of diffusion models for visuomotor policy learning on physical robots, this paper presents a set of key technical contributions including the incorporation of receding horizon control, visual conditioning, and the time-series diffusion transformer. We hope this work will help motivate a new generation of policy learning techniques that are able to leverage the powerful generative modeling capabilities of diffusion models.",
+          "zh": "本文介绍了扩散策略，这是一种通过将机器人的视觉运动策略表示为条件去噪扩散过程来生成机器人行为的新方法。我们在来自4个不同机器人操作基准的15个不同任务中对扩散策略进行了基准测试，发现它始终优于现有的最先进的机器人学习方法，平均改进为46.9%。扩散策略学习动作-分布分数函数的梯度，并通过一系列随机朗之万动力学步骤在推理期间针对该梯度场迭代优化。我们发现扩散公式在用于机器人策略时产生了强大的优势，包括优雅地处理多模态动作分布，适用于高维动作空间，并表现出令人印象深刻的训练稳定性。 为了充分释放扩散模型在物理机器人视觉运动策略学习中的潜力，本文提出了一组关键技术贡献，包括后退视界控制、视觉调节和时间序列扩散变压器的结合。我们希望这项工作将有助于激励能够利用扩散模型强大的生成建模能力的新一代策略学习技术。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "This paper introduces Diffusion Policy, a new way of generating robot behavior by representing a robot’s visuomotor policy as a conditional denoising diffusion process. We benchmark Diffusion Policy across 15 different tasks from 4 different robot manipulation benchmarks and find that it consistently outperforms existing state-of-the-art robot learning methods with an average improvement of 46.9%. Diffusion Policy learns the gradient of the action-distribution score function and iteratively optimizes with respect to this gradient field during inference via a series of stochastic Langevin dynamics steps. We find that the diffusion formulation yields powerful advantages when used for robot policies, including gracefully handling multimodal action distributions, being suitable for high-dimensional action spaces, and exhibiting impressive training stability. To fully unlock the potential of diffusion models for visuomotor policy learning on physical robots, this paper presents a set of key technical contributions including the incorporation of receding horizon control, visual conditioning, and the time-series diffusion transformer. We hope this work will help motivate a new generation of policy learning techniques that are able to leverage the powerful generative modeling capabilities of diffusion models.|本文介绍了扩散策略，这是一种通过将机器人的视觉运动策略表示为条件去噪扩散过程来生成机器人行为的新方法。我们在来自4个不同机器人操作基准的15个不同任务中对扩散策略进行了基准测试，发现它始终优于现有的最先进的机器人学习方法，平均改进为46.9%。扩散策略学习动作-分布分数函数的梯度，并通过一系列随机朗之万动力学步骤在推理期间针对该梯度场迭代优化。我们发现扩散公式在用于机器人策略时产生了强大的优势，包括优雅地处理多模态动作分布，适用于高维动作空间，并表现出令人印象深刻的训练稳定性。 为了充分释放扩散模型在物理机器人视觉运动策略学习中的潜力，本文提出了一组关键技术贡献，包括后退视界控制、视觉调节和时间序列扩散变压器的结合。我们希望这项工作将有助于激励能够利用扩散模型强大的生成建模能力的新一代策略学习技术。",
+      "file": "Diffusion Policy.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794612378616,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "The grand aim of having a single robot that can manipulate arbitrary objects in diverse settings is at odds with the paucity of robotics datasets. Acquiring and growing such datasets is strenuous due to manual efforts, operational costs, and safety challenges. A path toward such an universal agent would require a structured framework capable of wide generalization but trained within a reasonable data budget. In this paper, we develop an efficient system (RoboAgent) for training universal agents capable of multi-task manipulation skills using (a) semantic augmentations that can rapidly multiply existing datasets and (b) action representations that can extract performant policies with small yet diverse multimodal datasets without overfitting. In addition, reliable task conditioning and an expressive policy architecture enable our agent to exhibit a diverse repertoire of skills in novel situations specified using language commands. Using merely 7500 ∗ authors contributed equally arXiv:2309.01918v1 [cs.RO] 5 Sep 2023 demonstrations, we are able to train a single agent capable of 12 unique skills, and demonstrate its generalization over 38 tasks spread across common daily activities in diverse kitchen scenes. On average, RoboAgent outperforms prior methods by over 40% in unseen situations while being more sample efficient and being amenable to capability improvements and extensions through fine-tun",
+          "zh": "拥有一个能够在不同环境中操纵任意物体的机器人的宏伟目标与机器人数据集的匮乏是不一致的。由于人工努力、运营成本和安全挑战，获取和扩展这样的数据集是一项艰巨的任务。通往这样一个通用代理的道路需要一个能够广泛泛化但在合理数据预算范围内进行训练的结构化框架。在本文中，我们开发了一个高效的系统（RoboAgent），用于训练能够使用（a）语义增强，可以快速乘以现有数据集，以及（b）动作表示，可以使用小而多样的多模态数据集提取高性能策略，而不会过度拟合。 此外，可靠的任务条件反射和富有表现力的策略架构使我们的代理能够在使用语言命令指定的新情况下展示各种技能。仅使用7500个作者同样贡献了arxiv： 2309.01918v1[cs.RO]2023年9月5日的演示，我们能够训练一个能够拥有12种独特技能的代理，并展示其在不同厨房场景中分布在常见日常活动中的38个任务的泛化。平均而言，RoboAgent在看不见的情况下比以前的方法性能高出40%以上，同时更具样本效率，并且可以通过细屯进行能力改进和扩展",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "The grand aim of having a single robot that can manipulate arbitrary objects in diverse settings is at odds with the paucity of robotics datasets. Acquiring and growing such datasets is strenuous due to manual efforts, operational costs, and safety challenges. A path toward such an universal agent would require a structured framework capable of wide generalization but trained within a reasonable data budget. In this paper, we develop an efficient system (RoboAgent) for training universal agents capable of multi-task manipulation skills using (a) semantic augmentations that can rapidly multiply existing datasets and (b) action representations that can extract performant policies with small yet diverse multimodal datasets without overfitting. In addition, reliable task conditioning and an expressive policy architecture enable our agent to exhibit a diverse repertoire of skills in novel situations specified using language commands. Using merely 7500 ∗ authors contributed equally arXiv:2309.01918v1 [cs.RO] 5 Sep 2023 demonstrations, we are able to train a single agent capable of 12 unique skills, and demonstrate its generalization over 38 tasks spread across common daily activities in diverse kitchen scenes. On average, RoboAgent outperforms prior methods by over 40% in unseen situations while being more sample efficient and being amenable to capability improvements and extensions through fine-tun|拥有一个能够在不同环境中操纵任意物体的机器人的宏伟目标与机器人数据集的匮乏是不一致的。由于人工努力、运营成本和安全挑战，获取和扩展这样的数据集是一项艰巨的任务。通往这样一个通用代理的道路需要一个能够广泛泛化但在合理数据预算范围内进行训练的结构化框架。在本文中，我们开发了一个高效的系统（RoboAgent），用于训练能够使用（a）语义增强，可以快速乘以现有数据集，以及（b）动作表示，可以使用小而多样的多模态数据集提取高性能策略，而不会过度拟合。 此外，可靠的任务条件反射和富有表现力的策略架构使我们的代理能够在使用语言命令指定的新情况下展示各种技能。仅使用7500个作者同样贡献了arxiv： 2309.01918v1[cs.RO]2023年9月5日的演示，我们能够训练一个能够拥有12种独特技能的代理，并展示其在不同厨房场景中分布在常见日常活动中的38个任务的泛化。平均而言，RoboAgent在看不见的情况下比以前的方法性能高出40%以上，同时更具样本效率，并且可以通过细屯进行能力改进和扩展",
+      "file": "MT-ACT .pdf",
+      "page": null
+    },
+    {
+      "ts": 1794612088923,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "The MoE layer decomposes a unified task policy into independently invoked expert components. Through adaptive activation, it naturally decouples multi-task action distributions in latent space. During decoding, Feature-wise Linear Modulation (FiLM) dynamically modulates action tokens to improve consistency between action generation and task instructions. In parallel, multi-scale cross-attention enables the policy to simultaneously focus on both low-level and high-level semantic features, providing rich visual information for robotic manipulation. We further incorporate textual information, transitioning the framework from a purely vision-based model to a vision-centric, language-conditioned action generation system. Experimental validation in both simulation and a real-world dual-arm setup shows that MoE-ACT substantially improves multi-task performance. Specifically, MoE-ACT outperforms vanilla ACT by an average of 33% in success rate. These results indicate that MoE-ACT provides stronger robustness and generalization in complex multi-task bimanual manipulation environments. Our open-source project page can be found a",
+          "zh": "MoE层将统一的任务策略分解为独立调用的专家组件。通过自适应激活，它自然地解耦了潜在空间中的多任务动作分布。在解码期间，按特征线性调制（FiLM）动态调制动作令牌，以提高动作生成和任务指令之间的一致性。同时，多尺度交叉注意使策略能够同时关注低级和高级语义特征，为机器人操作提供丰富的视觉信息。我们进一步融入了文本信息，将框架从纯粹基于视觉的模型转变为以视觉为中心的language-conditioned动作生成系统。仿真和真实世界双臂设置中的实验验证表明，MoE-ACT大幅提高了多任务性能。 具体来说，MoE-ACT的成功率平均比vanilla ACT高出33%。这些结果表明，MoE-ACT在复杂的多任务双元操作环境中提供了更强的鲁棒性和泛化。我们的开源项目页面可以在",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "The MoE layer decomposes a unified task policy into independently invoked expert components. Through adaptive activation, it naturally decouples multi-task action distributions in latent space. During decoding, Feature-wise Linear Modulation (FiLM) dynamically modulates action tokens to improve consistency between action generation and task instructions. In parallel, multi-scale cross-attention enables the policy to simultaneously focus on both low-level and high-level semantic features, providing rich visual information for robotic manipulation. We further incorporate textual information, transitioning the framework from a purely vision-based model to a vision-centric, language-conditioned action generation system. Experimental validation in both simulation and a real-world dual-arm setup shows that MoE-ACT substantially improves multi-task performance. Specifically, MoE-ACT outperforms vanilla ACT by an average of 33% in success rate. These results indicate that MoE-ACT provides stronger robustness and generalization in complex multi-task bimanual manipulation environments. Our open-source project page can be found a|MoE层将统一的任务策略分解为独立调用的专家组件。通过自适应激活，它自然地解耦了潜在空间中的多任务动作分布。在解码期间，按特征线性调制（FiLM）动态调制动作令牌，以提高动作生成和任务指令之间的一致性。同时，多尺度交叉注意使策略能够同时关注低级和高级语义特征，为机器人操作提供丰富的视觉信息。我们进一步融入了文本信息，将框架从纯粹基于视觉的模型转变为以视觉为中心的language-conditioned动作生成系统。仿真和真实世界双臂设置中的实验验证表明，MoE-ACT大幅提高了多任务性能。 具体来说，MoE-ACT的成功率平均比vanilla ACT高出33%。这些结果表明，MoE-ACT在复杂的多任务双元操作环境中提供了更强的鲁棒性和泛化。我们的开源项目页面可以在",
+      "file": "MoE-ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794612000102,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "The ability of robots to handle multiple tasks under a unified policy is critical for deploying embodied intelligence in real-world household and industrial applications. However, out-of-distribution variation across tasks often causes severe task interference and negative transfer when training general robotic policies. To address this challenge, we propose a lightweight multi-task imitation learning framework for bimanual manipulation, termed Mixture-of-Experts-Enhanced Action Chunking Transformer (MoE-ACT), which integrates sparse Mixture-of-Experts (MoE) modules into the Transformer encoder of ACT.",
+          "zh": "机器人在统一策略下处理多个任务的能力对于在现实世界的家庭和工业应用中部署具身智能至关重要。然而，在训练一般机器人策略时，跨任务的分布外变化通常会导致严重的任务干扰和负迁移。为了应对这一挑战，我们提出了一种用于双目操作的轻量级多任务模仿学习框架，称为Mixture-of-Experts-Enhanced动作块转换器（MoE-ACT），它将稀疏的专家混合（MoE）模块集成到ACT的变压器编码器中。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "The ability of robots to handle multiple tasks under a unified policy is critical for deploying embodied intelligence in real-world household and industrial applications. However, out-of-distribution variation across tasks often causes severe task interference and negative transfer when training general robotic policies. To address this challenge, we propose a lightweight multi-task imitation learning framework for bimanual manipulation, termed Mixture-of-Experts-Enhanced Action Chunking Transformer (MoE-ACT), which integrates sparse Mixture-of-Experts (MoE) modules into the Transformer encoder of ACT.|机器人在统一策略下处理多个任务的能力对于在现实世界的家庭和工业应用中部署具身智能至关重要。然而，在训练一般机器人策略时，跨任务的分布外变化通常会导致严重的任务干扰和负迁移。为了应对这一挑战，我们提出了一种用于双目操作的轻量级多任务模仿学习框架，称为Mixture-of-Experts-Enhanced动作块转换器（MoE-ACT），它将稀疏的专家混合（MoE）模块集成到ACT的变压器编码器中。",
+      "file": "MoE-ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794611805732,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "Training generalist agents capable of solving diverse tasks is challenging, often requiring large datasets of expert demonstrations. This is particularly problematic in robotics, where each data point requires physical execution of actions in the real world. Thus, there is a pressing need for architectures that can effectively leverage the available training data. In this work, we present BAKU, a simple transformer architecture that enables efficient learning of multi-task robot policies. BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work. Our experiments on 129 simulated tasks across LIBERO, Meta-World suite, and the Deepmind Control suite exhibit an overall 18% absolute improvement over RT-1 and MT-ACT, with a 36% improvement on the harder LIBERO benchmark. On 30 real-world manipulation tasks, given an average of just 17 demonstrations per task, BAKU achieves a 91% success rate. Videos of the robot are best viewed at baku-robot.github.io.",
+          "zh": "训练能够解决各种任务的多面手代理具有挑战性，通常需要大量专家演示数据集。这在机器人技术中尤其成问题，因为每个数据点都需要在现实世界中物理执行动作。因此，迫切需要能够有效利用可用训练数据的架构。在这项工作中，我们展示了BAKU，一个简单的转换器架构，可以高效学习多任务机器人策略。BAKU建立在离线模仿学习的最新进展之上，并精心结合了观察树干、动作块、多感官观察和动作头，以大幅改进先前的工作。 我们在LIBERO、Meta-World套件和DeepMind Control套件中的129个模拟任务上的实验显示，与RT-1和MT-ACT相比，总体绝对改进了18%，比更难的LIBERO基准提高了36%。在30个真实世界的操作任务中，平均每个任务只有17个演示，BAKU实现了91%的成功率。机器人的视频最好在baku-robot.github.io观看。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "Training generalist agents capable of solving diverse tasks is challenging, often requiring large datasets of expert demonstrations. This is particularly problematic in robotics, where each data point requires physical execution of actions in the real world. Thus, there is a pressing need for architectures that can effectively leverage the available training data. In this work, we present BAKU, a simple transformer architecture that enables efficient learning of multi-task robot policies. BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work. Our experiments on 129 simulated tasks across LIBERO, Meta-World suite, and the Deepmind Control suite exhibit an overall 18% absolute improvement over RT-1 and MT-ACT, with a 36% improvement on the harder LIBERO benchmark. On 30 real-world manipulation tasks, given an average of just 17 demonstrations per task, BAKU achieves a 91% success rate. Videos of the robot are best viewed at baku-robot.github.io.|训练能够解决各种任务的多面手代理具有挑战性，通常需要大量专家演示数据集。这在机器人技术中尤其成问题，因为每个数据点都需要在现实世界中物理执行动作。因此，迫切需要能够有效利用可用训练数据的架构。在这项工作中，我们展示了BAKU，一个简单的转换器架构，可以高效学习多任务机器人策略。BAKU建立在离线模仿学习的最新进展之上，并精心结合了观察树干、动作块、多感官观察和动作头，以大幅改进先前的工作。 我们在LIBERO、Meta-World套件和DeepMind Control套件中的129个模拟任务上的实验显示，与RT-1和MT-ACT相比，总体绝对改进了18%，比更难的LIBERO基准提高了36%。在30个真实世界的操作任务中，平均每个任务只有17个演示，BAKU实现了91%的成功率。机器人的视频最好在baku-robot.github.io观看。",
+      "file": "BAKU.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794385678570,
+      "via": "谷歌",
+      "pairs": [
+        {
+          "en": "We note that unlike typical smoothing, where the current action is aggregated with actions in adjacent timesteps, which leads to bias, we aggregate actions predicted for the same timestep.",
+          "zh": "我们注意到，与典型的平滑不同，在典型的平滑中，当前动作与相邻时间步长中的动作聚合，这会导致偏差，而我们聚合了同一时间步长的预测动作。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "We note that unlike typical smoothing, where the current action is aggregated with actions in adjacent timesteps, which leads to bias, we aggregate actions predicted for the same timestep.|我们注意到，与典型的平滑不同，在典型的平滑中，当前动作与相邻时间步长中的动作聚合，这会导致偏差，而我们聚合了同一时间步长的预测动作。",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794385607925,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "weighted average",
+          "zh": "加权平均",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "weighted average|加权平均",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794385593800,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "temporal ensemble",
+          "zh": "时间系综",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "temporal ensemble|时间系综",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794385555525,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "Our temporal ensemble performs a weighted average over these predictions with an exponential weighting scheme wi = exp(-m ∗ i), where w0 is the weight for the oldest action.",
+          "zh": "我们的时间集合使用指数加权方案wi=exp（-m*i）对这些预测进行加权平均，其中w0是最古老动作的权重。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "Our temporal ensemble performs a weighted average over these predictions with an exponential weighting scheme wi = exp(-m ∗ i), where w0 is the weight for the oldest action.|我们的时间集合使用指数加权方案wi=exp（-m*i）对这些预测进行加权平均，其中w0是最古老动作的权重。",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794383354594,
+      "via": "谷歌",
+      "pairs": [
+        {
+          "en": "The speed for incorporating new observation is governed by m, where a smaller m means faster incorporation.",
+          "zh": "合并新观察的速度由 m 决定，其中 m 越小意味着合并速度越快。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "The speed for incorporating new observation is governed by m, where a smaller m means faster incorporation.|合并新观察的速度由 m 决定，其中 m 越小意味着合并速度越快。",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794383077422,
+      "via": "百度",
+      "pairs": [
+        {
+          "en": "incorporate",
+          "zh": "vt. 包含； 组成公司； 使混合； 使具体化 vi. 合并； 包含； 吸收； 混合\nadj. <美>股份有限的，组成公司的 v. 包含； 组成公司( incorporate的过去式和过\nadj. （用于公司名称后）组成公司的，股份有限的\nv. 包含； 组成公司( incorporate的第三人称单数 )； 使混合； 使具体化",
+          "dict": true,
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "incorporate|vt. 包含； 组成公司； 使混合； 使具体化 vi. 合并； 包含； 吸收； 混合\nadj. <美>股份有限的，组成公司的 v. 包含； 组成公司( incorporate的过去式和过\nadj. （用于公司名称后）组成公司的，股份有限的\nv. 包含； 组成公司( incorporate的第三人称单数 )； 使混合； 使具体化",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794382532921,
+      "via": "谷歌",
+      "pairs": [
+        {
+          "en": "A naïve implementation of action chunking can be suboptimal: a new environment observation is incorporated abruptly every k steps and can result in jerky robot motion.",
+          "zh": "动作分块的简单实现可能不是最理想的：每 k 步突然合并一个新的环境观察，并可能导致机器人运动不稳定。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "A naïve implementation of action chunking can be suboptimal: a new environment observation is incorporated abruptly every k steps and can result in jerky robot motion.|动作分块的简单实现可能不是最理想的：每 k 步突然合并一个新的环境观察，并可能导致机器人运动不稳定。",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794382432488,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "Action chunking can mitigate this issue when the confounder is within a chunk, without introducing the causal confusion issue for history-conditioned policies [1",
+          "zh": "当混杂因素位于块内时，动作分块可以缓解此问题，而不会为历史条件策略引入因果混淆问题[1",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "Action chunking can mitigate this issue when the confounder is within a chunk, without introducing the causal confusion issue for history-conditioned policies [1|当混杂因素位于块内时，动作分块可以缓解此问题，而不会为历史条件策略引入因果混淆问题[1",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794382168124,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "a single-step policy would struggle with temporally correlated confounder",
+          "zh": "单步策略将与时间相关的混杂因素作斗争",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "a single-step policy would struggle with temporally correlated confounder|单步策略将与时间相关的混杂因素作斗争",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794375880943,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "k-fold",
+          "zh": "k倍",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "k-fold|k倍",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794375789689,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "could correspond to",
+          "zh": "可以对应于",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "could correspond to|可以对应于",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794375705106,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "we seek to reduce the effective horizon of long trajectories collected at high frequency.",
+          "zh": "我们寻求减少在高频率下收集的长轨迹的有效视界。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "we seek to reduce the effective horizon of long trajectories collected at high frequency.|我们寻求减少在高频率下收集的长轨迹的有效视界。",
+      "file": "ACT.pdf",
+      "page": null
+    },
+    {
+      "ts": 1794372034949,
+      "via": "火山",
+      "pairs": [
+        {
+          "en": "We present BAKU, a simple transformer architecture learning multi-task policies across a diverse range of tasks.",
+          "zh": "我们介绍了BAKU，这是一个简单的转换器架构，可以跨各种任务学习多任务策略。",
+          "sourceLanguage": "auto",
+          "targetLanguage": "zh-Hans",
+          "detectedLanguage": "en"
+        }
+      ],
+      "sig": "We present BAKU, a simple transformer architecture learning multi-task policies across a diverse range of tasks.|我们介绍了BAKU，这是一个简单的转换器架构，可以跨各种任务学习多任务策略。",
+      "file": "BAKU.pdf",
+      "page": null
+    }
+  ],
+  "llmProfiles": [],
+  "activeProfile": 0,
+  "orbSkin": "ink-wash",
+  "orbSize": 40,
+  "orbPosition": null,
+  "typography": {
+    "version": 1,
+    "popup": {
+      "source": {
+        "fontFamily": "",
+        "color": "",
+        "background": "",
+        "fontSize": 0,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "wordSpacing": null,
+        "paragraphSpacing": null,
+        "spaceAfter": null,
+        "firstLineIndent": null,
+        "opacity": null,
+        "alignment": "auto",
+        "weight": "auto",
+        "fontStyle": "auto",
+        "decoration": "auto"
+      },
+      "target": {
+        "fontFamily": "",
+        "color": "",
+        "background": "",
+        "fontSize": 0,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "wordSpacing": null,
+        "paragraphSpacing": null,
+        "spaceAfter": null,
+        "firstLineIndent": null,
+        "opacity": null,
+        "alignment": "auto",
+        "weight": "auto",
+        "fontStyle": "auto",
+        "decoration": "auto"
+      }
+    },
+    "sidebar": {
+      "source": {
+        "fontFamily": "",
+        "color": "",
+        "background": "",
+        "fontSize": 0,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "wordSpacing": null,
+        "paragraphSpacing": null,
+        "spaceAfter": null,
+        "firstLineIndent": null,
+        "opacity": null,
+        "alignment": "auto",
+        "weight": "auto",
+        "fontStyle": "auto",
+        "decoration": "auto"
+      },
+      "target": {
+        "fontFamily": "",
+        "color": "",
+        "background": "",
+        "fontSize": 0,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "wordSpacing": null,
+        "paragraphSpacing": null,
+        "spaceAfter": null,
+        "firstLineIndent": null,
+        "opacity": null,
+        "alignment": "auto",
+        "weight": "auto",
+        "fontStyle": "auto",
+        "decoration": "auto"
+      }
+    }
+  }
+}
